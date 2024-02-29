@@ -1,0 +1,540 @@
+@font-face{
+    font-family: monorape;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+/* fonts */
+*{
+    font-family: 'Playfair Display', 'Poppins', sans-serif ;
+    font-optical-sizing: auto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: monotape;
+}
+
+body{
+    margin: 0;
+    color: white;
+}
+/* uni-padding class */
+.uni-padding{
+    padding: 0 7%;
+}
+/* header topbar */
+#topbar{
+    background-color: #303030;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    
+}
+#social-icon{
+    float: right;
+    padding-right: 130px;
+
+}
+#web-name{
+    float: left;
+    margin: 0;
+    color: white ;
+
+}
+.fa-brands{
+    padding: 7px;
+    margin-top: 7px;
+    color: white ;
+
+}
+/* NAV BAR */
+#navbar{
+    background-color: #e7631c;
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    overflow: auto;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 50;
+
+}
+#navbar ul{
+    margin: 0;
+    position: sticky;
+    overflow: hidden;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px opx;
+    padding-right: 35px;
+
+}
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+#navbar ul li a:hover{
+    color: white;
+}
+/* header end */
+
+/* poster */
+#poster{
+    color: white ;
+    background-image: url(../images/favicon/3390959.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+#poster p{
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    content: justify;
+}
+#registerHere{
+  color: white;
+  background-color: #e7631c;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11);
+ 
+}
+#registerHere:hover{
+    background-color: rgb(255, 85, 85);
+    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3),
+    -10px 10px 0px rgba(33, 33, 33, 1), -20px 20px 0px rgba(33, 33, 33, 0.7), -30px 30px 0px rgba(33, 33, 33, 0.4), -40px 40px 0px rgba(33, 33, 33, 0.1);
+    cursor: pointer;
+  }
+/* poster end */
+
+/* dance tour section */
+#danceSection{
+    background-color: #e7631c;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.white-heading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+
+}
+#p-dance{
+    text-align: center;
+
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    
+    
+}
+.bc-section{
+    background-color: #303030;
+}
+
+.section33 h2{
+  text-align: center;
+  margin-bottom: 0px;
+}
+.section33 img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    max-width: 100%;
+}
+.section33 p{
+  margin-top: 0px;
+  justify-content: center;
+  text-decoration: justify;
+}
+/* dance tour end */
+
+
+/* ourstatitics section */
+#ourstatistics{
+    background-color: #303030;
+    margin: 0px;
+    overflow: auto;
+    text-align: center;
+    height: 500px;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+.section33Our{
+    text-align: center;
+    padding: 90px 50px 0px 50px;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+#ourstatistics h1{
+  padding-top: 40px;
+}
+#ourstatistics p{
+    margin-left: 20%;
+    margin-right: 20%;
+    box-sizing: border-box;
+}
+.section33Our h2{
+    font-weight: 900;
+    font-size: xx-large;
+}
+/* ourstatitics section end */
+
+/* contact-container  section*/
+#contact-container{
+    background-image: url(/images/favicon/3390953.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    filter: blur(0.5px);
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    color: goldenrod ; 
+    overflow: auto; 
+    align-self: center;
+    font-weight: 500;
+    font-size: large;
+}
+#heading-contact{
+   text-align: center;
+   color: goldenrod ; 
+   text-shadow: 3px 0px 7px rgba(176, 145, 20, 0.8), 
+	  -3px 0px 7px rgba(241, 50, 44, 0.8), 
+	  0px 4px 7px rgba(240, 71, 15, 0.8);
+      padding-top: 10px;
+      font-size: 20px;
+}
+.section70{
+    width: 70%;
+    float: left;
+    text-align: center;
+    margin-top: 7%;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-self: center;
+    padding-left: 45px;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-top: 13%;
+}
+.section30 a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: larger;
+    text-shadow: 3px 3px 5px rgb(17, 18, 1);
+}
+.section30 a:hover{
+    background-color: goldenrod ;
+    color: black ;
+    font-size: 35px;
+    text-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+/* contact-container  section end */
+
+/* pricing section */
+.btn-pricing{
+    background-color: black;
+    color: white;
+    height: 35px;
+    cursor: pointer;
+  
+}
+
+/* subscribe section  */
+#subscribe{
+   color: white;
+   height: 350px;
+   background-color: #303030;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+.section50{
+    height: 50%;
+    align-items: center;
+    text-align: center;
+}
+.section50 h2{
+    font-size: 35px;
+}
+.section50 h3 p{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.section50 form{
+
+}
+.section50 input[type="email"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-right: 0px;
+    border: 0px;
+}
+.section50 input[type="email"]:focus{
+    color: black ;
+    background-color: rgb(152, 220, 243);
+}
+.section50 input[type="submit"]{
+   font-size: 20px;
+   background-color: black;
+   color: white;
+   padding: 5px 15px;
+   margin-left: 0px;
+   cursor: pointer;
+   border: inset;
+}
+.section50 input[type="submit"]:hover{
+    color: white ;
+    background-color: rgb(216, 43, 43);
+    width: 130px;
+    height: 50px;
+}
+
+/* footer */
+footer{
+    /* background-color: black; */
+    overflow: auto;
+    
+}
+#imp-link{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    
+}
+.div25{
+    width: 25%;
+    float: left;
+    padding: 20px 0px;
+    box-sizing: border-box;
+   
+}
+.div25 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px
+    
+
+}
+.footer-menu{
+    list-style-type: none;
+    padding: 0px;
+    
+
+}
+.footer-menu li{
+    padding-bottom: 7px;
+   
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: white;
+   
+}
+.footer-h3{
+    text-decoration: none;
+    color: white;
+    
+}
+#footer-menu-container{
+    padding-left: 20px;
+    padding-right: 10px;
+   
+}
+
+/* copyright */
+#copyright{
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 13, 37);
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+#copyright a{
+    color: white;
+    text-decoration: none;
+    cursor: none;
+    
+}
+
+/* aboutus page css */
+#content{
+    color: black;
+}
+#aboutus-logo{
+   margin: 0px;
+   margin-left: 30%;
+   padding: 20px;
+   box-sizing: border-box;
+   border-radius: 20%;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   cursor:wait;
+}
+#aboutus-logo:hover{
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+       }
+ /* about us end        */
+
+
+/* to hide menu bar on non-mobile devices  */
+#navbar ul #mobile-cross, #mobile-tag{
+        display: none ;
+ }
+
+/* responsive  */
+@media only screen  and (max-width: 768px){
+    
+}
+@media only screen  and (max-width: 500px){
+    .section33, .section30, .section50, .section33Our, .section70, .div25{
+        width: 100%;
+    }
+    #footer-menu-container {
+        padding-left: 5px;
+
+    }
+    #contact-container{
+        height: auto;
+        overflow: hidden;
+
+    }
+    .section30 a{
+        margin-bottom: 50px;
+    }
+    #social-icon{
+        float: right;
+        padding-right: 40px;
+    
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:650px){
+  
+}
+
+
+/* mobile menu  */
+@media only screen  and (max-width: 500px){
+    #navbar {
+        background-color: #e7631c;
+        margin: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        text-align: center;
+        overflow: auto;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        z-index: 150;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li {
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        border-bottom: 1px solid black;
+    }
+    #mobile-cross{
+        text-align: right;
+        border-bottom-style: none !important;
+        padding-left: 50px;
+        margin-left: 180px;
+        box-sizing: border-box;
+        font-size: 45px;
+        
+
+    }
+    .fa-circle-xmark{
+        font-size: 50px;
+    }
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease-in-out;
+    }
+    /* hamburgar  */
+    #mobile-tag{
+        background-color:#ddd7d7;
+        color: black !important;
+        height: 40px;
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 15px;
+        overflow: auto;
+        position: sticky;
+        top: 72px;
+        z-index: 40;
+        
+    }
+    .fa-bars{
+       
+    }
+    #mobile-tag h3{
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .fa-bars{
+        color: black !important;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+        padding-bottom: 5px;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    
+    #navbar ul #mobile-cross, #mobile-tag{
+       display: block;
+    }
+   
+}
